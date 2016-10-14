@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>我的vue</title>
+<script src="js/jquery-1.11.0.js"></script>
+</head>
+<body>
+<!--v-if v-else用法开始-->	
+<div id="test">	
+	<div v-if="Math.random() > 0.5">
+	  Sorry
+	</div>
+	<div v-else>
+	  Not sorry
+	</div>
+</div>	
+<!--end v-if v-else用法-->
+
+
+<div id="example-2">
+  <p v-if="greeting">Hello!</p>
+</div>
+
+<div id="app">
+	<span>
+		message:{{msg}}
+	</span>
+</div>
+
+<!--逻辑性绑定  这样写不行，报错了-->
+<div id="demo1">
+	{{1+1>1 ? alert("还是我老李随机生成的数大哦！") ：alert("还是你1大！")}}
+</div>
+
+</body>
+<script src="js/vue.js"></script>
+<script type="text/javascript">
+new Vue({
+	el:'#test'
+})   
+
+var exampleVM2 = new Vue({
+  el: '#example-2',
+  data: {
+    greeting: false
+  }
+})
+
+new Vue({
+	el:'#app',
+	data:{
+		msg:'哈哈哈，我被data里面的数据替换了'
+	}
+}) 
+
+new Vue({
+	el:'#demo1'
+}) 
+</script>
+</html>

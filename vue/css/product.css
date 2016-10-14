@@ -1,0 +1,98 @@
+@charset "utf-8";
+/*alpha系列*/
+.pro-title{height:40px;line-height: 40px;}
+.pro-title span{font-size: 18px;font-weight: 700;background:url(..//img/chanp-pre.gif) no-repeat left center;padding-left: 14px;}
+.pro-alpha{width: 920px;height: 190px;background-color:#f2f2f2;padding: 20px;}
+.pro-alpha ul{border: 1px solid #ECECEC;}
+.pro-alpha li{width: 228px;height: 190px;margin-right: 2px;background-color:#fff;float: left;text-align: center;display: inline;}
+.pro-alpha li a{width: 228px;height: 160px;display: block;padding-top: 30px;}
+.pro-alpha li .dd-1{font-size: 20px;margin-top: 20px;font-family:arial,"microsoft yahei";}
+.pro-alpha li .dd-2{font-size: 14px;margin-top: 10px;color: #999;}
+.pro-alpha li:hover .dd-2{color:#e62223;text-decoration:underline;}
+.pro-alpha .more-pro{background-color:#f2f2f2;width: 210px;}
+.pro-alpha .more-pro img{margin-top: 76px;}
+.pro-alpha .more-pro dd{font-size: 20px;margin-top: 20px;color:#00B4EE;margin-left: 10px;}
+.pro-alpha1{width: 920px;height: 400px;background-color:#f2f2f2;padding: 20px;}
+.pro-alpha1 ul{border:none;}
+.pro-alpha li .tuijian{position: absolute;left: 0;top: 0;}
+
+/*体验锦囊*/
+.body-try{background-color:#ebebed;}
+.headerbg{width: 100%;height: 160px;background: url(..//img/trykitbg.jpg) no-repeat center center;background-size: cover;}
+.header{width: 960px;margin: 0 auto;}
+.header h2{width: 361px;height: 92px;padding-top: 24px;margin-left:298px;}
+.header p{width: 357px;height:38px;margin-top:4px;margin-left:307px;background: url(..//img/tryphone.png) no-repeat;font-size: 20px;color: #fff;text-align: center;padding-top: 4px;}
+.content-try{width: 960px;margin: 0 auto;}
+.hold-title{width: 936px;height: 42px;border: 1px solid #dededf;padding:10px 12px 0 12px;background-color: #fafafa;border-radius: 5px;margin-top: 10px;}
+.hold-title .hold-left{font-size: 20px;color:#e62222;font-weight: bold;}
+.hold-title .hold-left img{vertical-align:-6px;}
+.hold-title .hold-right{margin-top: 10px;cursor: pointer;}
+.hold-title .hold-right img{vertical-align:-4px;margin-left:4px;}
+.hold-cont{width: 960px;border-radius:5px;background-color: #fafafa;margin-top: 10px;}
+.hold-cont li{margin: 0 50px;height: 40px;border-bottom: 1px solid #999;padding: 10px 0;}
+.hold-cont li span,.hold-cont li em{text-align: center;float: left;display: inline-block;_zoom:1;_display:}
+.hold-cont li .td1{line-height: 20px;width: 110px;font-size:18px;color: #1e338e;cursor: pointer;}
+.hold-cont li .td2{width:190px;font-size:14px;line-height: 40px;}
+.hold-cont li .td3{width:100px;font-size:14px;line-height: 40px;}
+.hold-cont li .td4{width:184px;font-size:14px;line-height: 40px;}
+.hold-cont li .td5{width:260px;font-size:14px;overflow: hidden;word-break: break-all;text-align: left;line-height: 22px;}
+.hold-cont li .td1 span{font-size: 14px;margin-left: 30px;}
+.hold-cont .li-first{width: 960px;background-color: #e62222;font-size: 14px;color: #fff;height: 38px;line-height:38px;margin: 0;}
+.li-first .fir,.li-first .sec,.li-first .thr,.li-first .fou{text-align: center;display: inline-block;_zoom:1;_display:inline;}
+.li-first .fir{width: 200px;}
+.li-first .sec{width: 110px;}
+.li-first .thr{width: 180px;}
+.li-first .fou{width: 254px;}
+.content-try .say{padding: 18px 0 46px 50px;font-size: 12px;color: #999;}
+.content-try .say-title{display: block;color: #999;}
+.content-try .say span{display: block;line-height: 28px;}
+
+.hold-cont li .td1:hover,.hold-cont li .td1:hover span{color:#e62223;text-decoration:underline;cursor: pointer;}
+
+.model-box{width:860px;border-radius:5px;background-color: #fff;padding:0 50px 20px 50px;margin-top: 10px;color: #666;font-size: 14px;line-height: 24px;}
+.model-box .model .k1 em{float: left;width: 80px;display:inline-block;_display:inline;color: #999;}
+.model-box .model .k1 span{float: left;width:730px;display:inline-block;_display:inline;padding-left:20px;border-left: 1px solid #ccc;padding-bottom: 20px;position: relative;}
+.model-box .model .k1 img{position: absolute;left:-6px;top:4px;}
+.model-box .model .k2 img{position: absolute;left:-5px;top:4px;}
+.model-box .model-time{margin-bottom:16px;padding-top: 20px;}
+.load-more{text-align: center;margin-top: 30px;}
+.load-more span{cursor: pointer;}
+.load-more span:hover{text-decoration: underline;}
+/*产品介绍皮肤控制*/
+.jinang-alert{border-radius: 5px;}
+.jinang-alert .alert-title{background-color: #f42d2d;color: #fff;width:360px;height: 50px;padding: 10px 20px 10px 20px;}
+.alert-title .p1{font-size: 24px;text-align: center;}
+.alert-title .p2{font-size: 14px;margin-top:8px;}
+.alert-title .p2 .span1{display: inline-block;width: 222px;_zoom:1;_display:inline;}
+.jinang-alert .word1,.jinang-alert .word2{line-height: 22px;color: #666;margin: 10px;padding-bottom: 10px;overflow: hidden;word-break: break-all;}
+.jinang-alert .word1{border-bottom: 1px dashed #fbbebe;}
+/*操作说明*/
+.jinang-qs{width: 520px;overflow: hidden;padding: 20px;border-radius: 5px;background-color:#f8f8f8;color: #666;line-height: 22px;word-break: break-all;position: absolute;top:44px;left:390px;border: 1px solid #d2d2d2;z-index: 9;}
+.hold-title .jiao{position: absolute;top:31px;left:880px;z-index: 99;}
+/*右侧提问弹窗*/
+.right-fix{width: 100px;
+    position: fixed;
+    left: 50%;
+   top:234px;
+    margin-left: 485px;
+    _position: absolute;
+  _bottom: auto;
+  _top: expression(eval(document.documentElement.scrollTop));
+  _ margin-top: 194px;
+    z-index: 10;
+}
+.right-fix .peo{height:88px;width: 100px;text-align: center;}
+.right-fix .want-qustion{width: 100px;height: 30px;line-height: 30px;color: #fff;font-size:14px;text-align: center;background-color: #ee2d2d;cursor: pointer;}
+.right-fix .lianghua{width: 100px;height: 32px;line-height: 32px;color:#ee2d2d;font-size:12px;text-align: center;font-weight: bold;}
+.right-fix .fix-bottom{background-color:#fff;height:170px;}
+.right-fix .fix-bottom img{width:80px;padding: 0 10px 10px 10px;}
+.right-fix .fix-bottom span{padding-left:4px;color: #999;margin-left:8px;height:18px;}
+/*提问弹窗*/
+.que-box{/*width: 360px;*/height: 344px;background:#f2f2f2;position: relative;border: 3px solid #e33b3b;}
+.que-box textarea{width:340px;height:245px;background:#FFFFFF;margin: 10px auto;display: inline-block;margin-left: 10px;}
+.que-box h3{font-size: 14px;font-weight: normal;text-indent: 14px;height: 27px; margin-top: 10px;color: #465580;_padding-top:10px;}
+.que-box a{width: 80px;height: 30px;background:#e14a52;color: #FFFFFF;display: inline-block;text-align: center;line-height: 30px;float:right;margin-right: 10px;}
+.que-box .tishi{width: 240px;overflow: hidden;height: 27px;position: absolute;left: 10px;top:310px;}
+.alert_conse {width: 13px; height: 17px; background: url(..//img/icon.png) no-repeat 0 -38px; position: absolute; right: 5px;top: 5px; cursor: pointer;}
+.tw .layui-layer-ico {background: url(..//img/delete.gif) no-repeat!important;}
+.hover-change:hover{color:#e62223;text-decoration:underline;cursor: pointer;}

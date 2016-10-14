@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>我的vue</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/style1.css"/>
+<link rel="stylesheet" type="text/css" href="css/product.css"/>
+<script src="js/jquery-1.11.0.js"></script>
+</head>
+<body>
+	<div class="hold-title clearfix psr">
+		<span class="hold-left fl"><em>最新持仓</em></span>
+		<span class="hold-right fr">操作说明<img src="img/try-jn_06.gif"></span>
+	<!--价值锦囊介绍弹窗-->
+	<div class="tips dn">
+		<div class="jiao"><img src="img/jiao-top.png"></div>	
+		<div class="jinang-qs">
+				<p class="js-content">		
+		1、价值投资，追求可持续的价值和高质量的成长。重视风险控制，趋势操作。<br/>
+		2、本锦囊团队是价值成长型，策略偏中长线，因此参与投资的资金不是短期资金。当然为了时效性，操作落实到波段级别，通常为1至3个月，以便在可以接受的时间范围获得一定的收益，但此并不作为收益和时间承诺。<br/>
+		3、因为是价值成长类股票，通常具有较大的资金容量，也有足够的操作时间窗口，适合不能时时盯盘的投资者。在锦囊提示的价格正负2%范围内建仓都算是合理的。<br/>
+		4、价值的目标是在一波行情中，赚15%~50%的收益，当然最终能否达成还要看行情是否配合。您也可能承受最大12%左右的止损风险。如果投资资金性质不允许长期被套，请在总仓位亏损达到12%时止损。我们认为上述风险报酬比是合理的。<br/>
+		5、锦囊中只有明确标红提示“操作”并调入（或调出）锦囊持仓的股票是本产品服务内容。其余在点评分析过程中提及的股票名、观察备选股票和备选股票池，只作为筛选逻辑的说明，并不作为作为产品服务内容。
+				</p>
+		</div>
+	</div>
+	<!--end 价值锦囊介绍弹窗-->
+	
+	
+	
+</div>
+
+</body>
+
+
+<script src="js/vue.js"></script>
+<!--<script type="text/javascript">
+var vm = new Vue({
+	el:'#test',
+	data:{
+		a:1,
+		style1:{
+			color:'red',
+			fontSize:'30px'
+		}
+	},
+	computed:{
+		b:function(){
+			return this.a+1;
+		}
+	},
+	// 在 `methods` 对象中定义方法
+	methods:{
+		greet:function(){
+			alert(this.b)
+		
+		}
+	}
+})   
+</script>-->
+<script type="text/javascript">
+$(function(){
+	$(".hold-right,.tips").click(function(e){
+		$(".tips").fadeIn();
+		e.stopPropagation()
+	})
+	
+	$("body").click(function(){
+    	$(".tips").hide();
+	})
+	
+})
+</script>
+</html>
